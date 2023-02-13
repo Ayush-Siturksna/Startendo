@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="right" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <EditText android:id="@+id/Teamname"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" android:hint="Enter Team Name"
+        android:ems="10"
+        android:layout_weight="0.12"
+        android:inputType="textPersonName"/>
+    <Button android:id="@+id/CreateTeam"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Create Team"
+        android:layout_weight="0.08"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/selectedlist"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/UserList"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"/>
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "949311947264",
+    "firebase_url": "https://startendo-c6c16-default-rtdb.firebaseio.com",
+    "project_id": "startendo-c6c16",
+    "storage_bucket": "startendo-c6c16.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949311947264:android:2f1ee3d9d8a36c0407cee5",
+        "android_client_info": {
+          "package_name": "com.example.startendo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949311947264-hkntilnmsl6nq62i72tqs8miudbsvnjb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.startendo",
+            "certificate_hash": "a873e65ef41a183d2a1b7a118104ff90c5ac8bae"
+          }
+        },
+        {
+          "client_id": "949311947264-42p2fa98ft8remn4cpljt081lpagbnbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARBdb24rb5FUSGqhlFf1hRzkcW9xuSfNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949311947264-42p2fa98ft8remn4cpljt081lpagbnbb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

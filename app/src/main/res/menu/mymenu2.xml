@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/ic_baseline_search_24" android:id="@+id/search_icon2" android:title="Search" app:actionViewClass="androidx.appcompat.widget.SearchView" app:showAsAction="never|always|collapseActionView"/>
+    <item android:id="@+id/NewTeam" android:title="New Team"/>
+    <item android:id="@+id/settings" android:title="Settings"/>
+    <item android:id="@+id/logout" android:title="Logout"/>
+</menu>
